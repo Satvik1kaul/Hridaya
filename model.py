@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
-df = pd.read_csv("C:/Users/satvi/Documents/cardio_train.csv", sep=";")
+df = pd.read_csv("cardio_train.csv", sep=";")
 
 print(df.head())
 
