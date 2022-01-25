@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import numpy as np
 import pickle
-model = pickle.load(open('C:/Users/satvi/Documents/modell.pkl','rb'))
+model = pickle.load(open('modell.pkl','rb'))
 app = Flask(__name__)
 @app.route('/')
 def index():
